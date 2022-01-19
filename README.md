@@ -117,6 +117,7 @@ Part (b): Use a loop to keep track of user input and moves in the maze.
 
 [Sudo code]
 
+```
 arr[ 15 ][ 15 ] = []
 
 x = 0
@@ -157,9 +158,10 @@ X = x -2 // no update
 
 Arr[ 0 ][ 1 ] = 0 // make start point
 Arr[ 13 ][ 14 ] = 0 // make goal
-
+```
 
 // user interaction
+```
 Current_x = 1
 Current_y = 0
 While Loop:
@@ -178,3 +180,4 @@ Move / update bitmap location
 If keyboard == right:
 If Arr[current_y][current_x+1] != 1:
 Move / update bitmap location
+```
