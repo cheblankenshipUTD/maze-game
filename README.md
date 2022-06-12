@@ -34,12 +34,12 @@ To dynamically handle which direction the user can go next, I used the location 
     2. Open “Bitmap Display” from “Tools” and click “Connect to MIPS”. Setup the setting as the image.
     	<img src="https://raw.githubusercontent.com/cheblankenshipUTD/maze-game/main/img/settings.png" width="400" height="200">&nbsp;
     3. Open “Keyboard and Display MMIO” from “Tools” and click “Connect to MIPS”.
-    	<img src="https://raw.githubusercontent.com/cheblankenshipUTD/maze-game/main/img/maze1.png" width="300" height="300">&nbsp;
     4. Compile the program and start running the program.
-    	<img src="https://raw.githubusercontent.com/cheblankenshipUTD/maze-game/main/img/maze2.png" width="300" height="300">&nbsp;
     5. You will see a randomly generated maze. You can see that at the top-left, there is a red pixel that shows your current location. At the right bottom of the maze, you will see the goal.
+    	<img src="https://raw.githubusercontent.com/cheblankenshipUTD/maze-game/main/img/maze1.png" width="300" height="300">&nbsp;
     6. Use the keyboard w=”up”, s=”down”, a=”left”, and d=”right” to reach the goal. Whenever you successfully move to the next point, the maze will track your path history with black. The image below shows right before it reaches the goal.
-    	<img src="https://raw.githubusercontent.com/cheblankenshipUTD/maze-game/main/img/maze3.png" width="300" height="300">&nbsp;
+    	<img src="https://raw.githubusercontent.com/cheblankenshipUTD/maze-game/main/img/maze2.png" width="300" height="300">&nbsp;
     7. When you exit the maze successfully, you will see this image and the program will finish.
+    	<img src="https://raw.githubusercontent.com/cheblankenshipUTD/maze-game/main/img/maze3.png" width="300" height="300">&nbsp;
 
 
